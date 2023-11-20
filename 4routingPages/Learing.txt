@@ -1,0 +1,14 @@
+Learing --> Routing (Watch and search twice in free time) 
+1. Creating Component ==> Good Practice -> Create folder for every Component
+2. Creating Component ==> Method 1
+                            1. routing every Component in App.jsx and calling in main.jsx \
+                            2. using array and object in it and then specifing the path and element
+                          Method 2
+                            1. using createRouteFromElement and using Route in it
+                            2. Simple nesting the path one by one in Route by using <Route path="/" element={<About />}> </Route>
+3. useParams for getting the values from someplaces ---> used in facebook and Insta for seaching the result and displaying the seached user from the database
+4. Github Component -> we are fetching the data from the API and call it and displaying on the DOM via useState Hook
+When we have to call any Method when the Component is render we use HOOKKKKKKK -> useEffect Hook of React.
+5. Loader --> new concept which help in optimization for calling any api from website or fetching it from database.
+        Concept of Asynchronus come into Practice
+        this Loader start even before useEffect--> As we mouse hover over the Component button. Loader automatically start working accordingly in parallel to fetch the data from api before clicking to render the Component it. 

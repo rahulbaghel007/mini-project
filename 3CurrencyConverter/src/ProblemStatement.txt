@@ -1,0 +1,10 @@
+Problem Statement: Create a currency converter
+
+Approach: 1. Two input field
+          2. Swap button
+          3. currency selection drop down menu
+          4. Convert Click button
+            Dynamic 
+          1. swap onclick (state change currencytype)
+          2. converter button onclick  do operation(using API) for accurate value
+          3. 
